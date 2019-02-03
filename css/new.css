@@ -1,0 +1,30 @@
+.container-fixed, .qoute{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+hr{
+            width: 50%;
+            border: 1px solid white;
+        }
+
+.footer-top{
+    background-color: black;
+    padding: 3em;
+}
+.logo-footer{
+    width: auto;
+    height: 80px;
+}
+.row{
+    color: white;
+}
+
+
+.footer-bottom{
+    color: white;
+}
