@@ -9,87 +9,97 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>   
     
-    <script>
-  
-    </script>
+    
+    
+    
 </head>
-    <style>
-        body {
+<style>
+    body {
     background-color: #333333;
-            font-size: 15px;
-          
-}
+    font-family: 'ABeeZee';  
+    font-size: 15px;
         
-        
-.parallax {
-  /* The image used */
-  background-image: url("images/k2.jpg");
-
-  /* Set a specific height */
+        }
+    
+    hr{
+    width: 50%;
+     border: 1px solid white;
+        }
+    
+    .parallax {
+  
+  background-image: url("images/ho2.jpg");
   min-height: 400px; 
-
-  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+              }
+    
+    .parallax2 {
+  
+  background-image: url("images/ho1.jpg");
+  min-height: 400px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-        .parallax2 {
-  /* The image used */
-  background-image: url("images/swat.jpg");
-
-  /* Set a specific height */
-  min-height: 400px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
         </style>
 
 <body>
+    
    <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="images/startup.png" height="80px"></a>
+        <a class="navbar-brand" href="index.html"><img src="images/startup.png" height="80px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar1">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Blogs</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="blogs.html">Blogs</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About Us</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link btn btn-outline-light" href="#">Contact Us</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+    <div class="video-container">
+      <video autoplay loop muted id="video-bg">
 
+        <source src="images/rise.mp4" type="video/mp4">
 
-    <div class="parallax"></div>
+      </video>
+    </div>
     
-    <div class="container-fixed">
+    
+    
+
+   <!-- <div class="parallax"></div> -->
+    
+    <div class="container-fixed" style="margin-top: 38%">
         <h1>Explore Pakistan!</h1>
         <p>Visit Pakistan virtually</p>
     </div>
     
     <div class="parallax2"></div>
+    <br>
+    
     
     <div class="container-fixed">
         <h1>Virtual Tours composed by us </h1>
@@ -99,14 +109,14 @@
         <hr>
     </div>
     
-
+   <div class="container">
     <div class="row">
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="images/k2.jpg" alt="Lights" class="responsive">
+        <img src="images/k2.jpg" alt="Nature" class="responsive">
         <div class="caption">
-          <p>Kumrat</p>
+          <button type="button" class="btn btn-outline-secondary">Kumrat</button>
         </div>
       </a>
     </div>
@@ -116,7 +126,7 @@
       <a href="#">
         <img src="images/swat.jpg" alt="Nature" class="responsive">
         <div class="caption">
-          <p>Swat</p>
+          <button type="button" class="btn btn-outline-secondary">Swat</button>
         </div>
       </a>
     </div>
@@ -126,7 +136,7 @@
       <a href="#">
         <img src="images/n3.jpg" alt="Fjords" class="responsive">
         <div class="caption">
-          <p>Murree</p>
+          <button type="button" class="btn btn-outline-secondary">Murree</button>
         </div>
       </a>
     </div>
@@ -137,9 +147,9 @@
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="images/n1.jpg" alt="Lights" class="responsive">
+        <img src="images/n1.jpg" alt="nature" class="responsive">
         <div class="caption">
-          <p>Kumrat</p>
+          <button type="button" class="btn btn-outline-secondary">Kumrat</button>
         </div>
       </a>
     </div>
@@ -149,7 +159,7 @@
       <a href="#">
         <img src="images/n2.jpeg" alt="Nature" class="responsive">
         <div class="caption">
-          <p>Swat</p>
+          <button type="button" class="btn btn-outline-secondary">Swat</button>
         </div>
       </a>
     </div>
@@ -157,14 +167,15 @@
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="images/n3.jpg" alt="Fjords" class="responsive">
+        <img src="images/n3.jpg" alt="natre" class="responsive">
         <div class="caption">
-          <p>Murree</p>
+          <button type="button" class="btn btn-outline-secondary">Murree</button>
         </div>
       </a>
     </div>
   </div>
 </div>
+    </div>
  
     <hr>
     <p class="qoute">“Live your life by a compass not a clock.” – Stephen Covey</p>
@@ -172,14 +183,14 @@
     
      <footer>
         	<div class="footer-top">
-		        <div class="container">
+		        <div class="contain">
 		        	<div class="row">
 		        		<div class="col-md-4 col-lg-4">
 		        			<img class="logo-footer" src="images/startup.png" alt="logo-footer" height="50px">
 		        			<p>
 		        				We offer virtual tour funtionality. Kindly contact us to talk further. 
 		        			</p>
-		        			<p><a href="#">Our Team</a></p>
+		        			<p><a href="about.html">Our Team</a></p>
 	                    </div>
 		        		<div class="col-md-4 col-lg-4">
 		        			<h3>Contact</h3>
