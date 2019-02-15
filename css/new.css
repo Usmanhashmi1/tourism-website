@@ -7,6 +7,11 @@
     width: 100%;
     height: auto;
 }
+.pic{
+    width: 100%;
+    height: 200px;
+
+}
 
 .nav-link{
     font-size: 16;
@@ -25,11 +30,6 @@
  
 }
 
-.pic{
-    width: 100%;
-    height: 70%
-   
-}
 
 .video-container {
 z-index: -100;
@@ -63,3 +63,10 @@ left:0;
 .footer-bottom{
     color: white;
 }
+
+
+
+
+
+
+
