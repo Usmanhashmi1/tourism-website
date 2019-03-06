@@ -1,6 +1,7 @@
 .container-fixed, .qoute{
     text-align: center;
     color: lightgray;
+    
 }
 
 .responsive{
@@ -15,10 +16,12 @@
 
 .nav-link{
     font-size: 16;
+   
 }
 
 .thumbnail{
     margin-bottom: 3em;
+    
 }
 
 .card{
@@ -30,19 +33,33 @@
  
 }
 
+.card-body{
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card-img-top{
+    width: 100%;
+    height: 30%;
+}
+.card-text, .card-title{
+    color: lightgray;
+}
+
 
 .video-container {
 z-index: -100;
 width:100%;
 height:75%;
 overflow:hidden;
-position:absolute;
+
 top:0;
 left:0;
 }
 
 #video-bg{
   width:100%;
+    
  
 }
 
