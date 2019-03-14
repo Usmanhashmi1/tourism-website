@@ -48,18 +48,33 @@
 
 
 .video-container {
-z-index: -100;
+z-index: -1;
 width:100%;
 height:75%;
 overflow:hidden;
-
 top:0;
 left:0;
 }
 
+@media (max-width: 750px) {
+  /* For mobile phones: */
+  .video-container{
+    z-index: -1;
+width:100%;
+height:auto;
+overflow:hidden;
+top:0;
+left:0;
+     
+
+    }
+
+  
+}
 #video-bg{
-  width:100%;
-    
+  
+ width:100%;
+
  
 }
 
@@ -82,6 +97,36 @@ left:0;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+/* Reset */
+
+.wrapper{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.wrapper .wrapper__video{
+  object-fit: cover;
+  width: 100%;
+    height: auto;
+  
+}
+
+.header{
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+}
 
 
 
