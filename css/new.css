@@ -1,3 +1,11 @@
+#photosphere {
+  height: 400px;
+  width: 540px;
+  margin: 0 auto;
+}
+
+
+
 .container-fixed, .qoute{
     text-align: center;
     color: lightgray;
@@ -6,14 +14,15 @@
 
 .responsive{
     width: 100%;
-    height: auto;
+    height: 15em;
 }
 .pic{
-    width: 95%;
+    width: 99%;
     height: 200px;
     margin: auto;
     margin-top: 1px;
 }
+
 
 .nav-link{
     font-size: 16;
@@ -21,10 +30,6 @@
    
 }
 
-.thumbnail{
-    margin-bottom: 3em;
-    
-}
 
 .card{
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -98,7 +103,9 @@ left:0;
     color: white;
 }
 
-
+.caption{
+    color: lightgray;
+}
 
 
 
